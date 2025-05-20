@@ -1,8 +1,8 @@
 namespace com.win.template;
 
 //String variables
-type title       : String(111);
-type description : String(1111);
+type title       : localized String(111);
+type description : localized String(1111);
 type ISBN        : String(40);
 
 //numerical variables
