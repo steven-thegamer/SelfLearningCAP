@@ -86,6 +86,24 @@
                                     }
                                 }
                             }
+                        },
+                        "BooksObjectPage": {
+                            "type": "Component",
+                            "id": "BooksObjectPage",
+                            "name": "sap.fe.templates.ObjectPage",
+                            "options": {
+                                "settings": {
+                                    "contextPath": "/Books",
+                                    "navigation": {},
+                                    "content": {
+                                        "header": {
+                                            "anchorBarVisible": true
+                                        }
+                                    },
+                                    "editableHeaderContent": false,
+                                    "sectionLayout": "Page"
+                                }
+                            }
                         }
                     }
                 }
